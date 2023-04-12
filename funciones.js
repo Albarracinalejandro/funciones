@@ -18,7 +18,7 @@ function aCelular(numero) {
 }
 
 function aFecha(dateString) {
-  // necesita una string de tipo "21/2/2023 10:06:38" para devolver una string de tipo "21 de febrero de 2023, 10:06am"
+  // necesita una string de tipo "21/2/2023 10:06:38" para devolver una string de tipo "21 de febrero de 2023, 10:06am";
   let months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
   let dateParts = dateString.split(/[\/ :]/);
   let year = parseInt(dateParts[2]);
